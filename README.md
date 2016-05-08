@@ -1,0 +1,1 @@
+prohlídka dat ke strukturálním fondům, většina práce je v souboru `EU_fondy.ipynb`
