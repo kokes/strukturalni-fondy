@@ -1,0 +1,6 @@
+## Datové vstupy
+Výsledný dataset je pospojován z několika zdrojů, jde o:
+
+- [Přehled projektů od MMR](http://www.strukturalni-fondy.cz/cs/Informace-o-cerpani/Seznamy-prijemcu) - ony datové soubory nejsou pro jednotlivé roky, každý odkaz obsahuje všechna data, starší než datum vydání, takže berte ty aktuální. V Seznamu příjemců je celkem nečistá tabulka, v Přehledu projektů jsou lepší informace, takže ten dataset jsem použil já.
+- [Seznam vládních institucí](http://www.mfcr.cz/cs/verejny-sektor/rozpoctove-ramce-statisticke-informace/verejny-sektor/sektor-vladnich-instituci/2016/seznam-vladnich-instituci-v-cr-2016-24749) a [Seznam veřejných společností](http://www.mfcr.cz/cs/verejny-sektor/rozpoctove-ramce-statisticke-informace/verejny-sektor/verejne-spolecnosti/2016/seznam-verejnych-spolecnosti-v-cr-2016-24752) od MFČR. Použil jsem tyto dva seznamy, abych mohl napárovat evropské dotace na veřejné instituce.
+- [ARES MFČR](http://wwwinfo.mfcr.cz/ares/ares.html.cz) je systém pro dohledání informací o firmách a veřejných institucích. Až data pořádně zapracuji, nahradí výše zmíněné seznamy MFČR, protože je to kompletnější databáze. Na základě ARES je pak vyplněn soubor `rucni-iso.csv`, kde jsem dohledával konkrétní IČO pro napárování nekompletních dat MMR.
