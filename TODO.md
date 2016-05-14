@@ -1,7 +1,9 @@
 ## TODO
 
+- **Vzít seznam firem z RES a napojit na ně celkový dotace, tj. ne projekty, ale sumu za každou firmu.**
 - vyřešit pořadí projektů - jsou ty skrytý řádky důležitý?
 - rozkouskovat na stages - příprava, realizace, zaplacení, certifikace
+ - pokud pouzijem ten mensi zdroj, je tam moznost groupovani podle ongoing, finalised, cancelled
 - všechny tabulky dělat pro všechny peněžní metriky
 - kofinance + histogram kofinančních poměrů
 - dotace per capita (dotace pro veřejnost i soukromníky)
@@ -51,3 +53,4 @@
 - <strike>najít firmy s významným podílem státu (ČD, Ruzyň, ČEZ)</strike>
 - <strike>IČO a názvů žadatelů jsou různý počty - unifikuj</strike>
 - <strike>pridat README do vsech slozek - hlavne do rootu</strike>
+- <strike>**Rozřešit, kterej ze dvou MMR zdrojů použít**</strike>
