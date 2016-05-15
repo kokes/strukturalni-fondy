@@ -3,7 +3,7 @@
 - **Vzít seznam firem z RES a napojit na ně celkový dotace, tj. ne projekty, ale sumu za každou firmu.**
 - vyřešit pořadí projektů - jsou ty skrytý řádky důležitý?
 - rozkouskovat na stages - příprava, realizace, zaplacení, certifikace
- - pokud pouzijem ten mensi zdroj, je tam moznost groupovani podle ongoing, finalised, cancelled
+ - <strike>pokud pouzijem ten mensi zdroj, je tam moznost groupovani podle ongoing, finalised, cancelled</strike> (NA)
 - všechny tabulky dělat pro všechny peněžní metriky
 - kofinance + histogram kofinančních poměrů
 - dotace per capita (dotace pro veřejnost i soukromníky)
@@ -13,19 +13,18 @@
 - podnikatelský subjekty rozkouskovat podle Čísla prioritní osy (a/nebo Čísla oblasti podpory) - 3.2.2 je CZC nebo Zoner
 
 - group by pravni forma (ESA z RES) a NACE (RES)
-- vyřešit IČO 53141260/53141337 (neni to český ičo, ale plete se to)
 
 - pridat ares.py - uklidit a odokumentovat
-- porovnat hodnoty z prehledu xlsx s tim puvodnim spreadsheetem od MMR - ktera metrika jsou proplaceny penize?
 - pridat exportovanej seznam dotaci (s cistyma jmenama subjektu - smazat moje prepisy subjektu)
-- rozdelit ipynb na cisteni a analyzy
 - zacit zapracovavat veci z emailu
 - **zacit parsovat OR**
 - OR půjde napojit na registr změn - získat tam seznam všech IČO! (tedy nejen tyhle firmy)
 
+- SZIF?
+
 - len(ico) != 8 - nejsou to nahodou fyzicky osoby? asi spis CR-Polsko. + isdigit()
 - dc.js - asi mam moc dat (jde tam AJAXovat?); [SO k ajaxování dc.js](http://stackoverflow.com/questions/24184986/using-dc-js-on-the-clientside-with-crossfilter-on-the-server)
-- elastic/solr/lunr pro RES/OR data
+- elastic/solr/lunr pro RES/OR data - kde bych to hostil?
 - **napojit data na RES dataset!! zrušit všechny mapování od MMR**
 - při napojení RES dat kontrolovat NUTS4 že sedí
 - kolik peněz šlo firmám pod zahraniční kontrolou?
@@ -54,3 +53,6 @@
 - <strike>IČO a názvů žadatelů jsou různý počty - unifikuj</strike>
 - <strike>pridat README do vsech slozek - hlavne do rootu</strike>
 - <strike>**Rozřešit, kterej ze dvou MMR zdrojů použít**</strike>
+- <strike>vyřešit IČO 53141260/53141337 (neni to český ičo, ale plete se to)</strike>
+- <strike>porovnat hodnoty z prehledu xlsx s tim puvodnim spreadsheetem od MMR - ktera metrika jsou proplaceny penize?</strike>
+- <strike>rozdelit ipynb na cisteni a analyzy</strike>
