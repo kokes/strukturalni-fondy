@@ -1,6 +1,7 @@
 ## TODO
 
 - **Vzít seznam firem z RES a napojit na ně celkový dotace, tj. ne projekty, ale sumu za každou firmu.**
+- nemůžu dělat strategický osy, pač sem je smazal. Dodělat.
 - vyřešit pořadí projektů - jsou ty skrytý řádky důležitý?
 - rozkouskovat na stages - příprava, realizace, zaplacení, certifikace
  - <strike>pokud pouzijem ten mensi zdroj, je tam moznost groupovani podle ongoing, finalised, cancelled</strike> (NA)
