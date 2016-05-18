@@ -1,5 +1,7 @@
 ## TODO
 
+
+- **Groupovat podle NACE** - navic ukazat nejvetsi ryby v kazdym NACE a jak velkej pomer zabiraj
 - **Vzít seznam firem z RES a napojit na ně celkový dotace, tj. ne projekty, ale sumu za každou firmu.**
 - nemůžu dělat strategický osy, pač sem je smazal. Dodělat.
 - vyřešit pořadí projektů - jsou ty skrytý řádky důležitý?
